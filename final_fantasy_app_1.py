@@ -22,7 +22,7 @@ def load_data():
 df = load_data()
 
 # If the data is empty, stop further execution
-if processed_df.empty:
+if df.empty:
     st.stop()
 
 # Display the introductory text
@@ -50,13 +50,13 @@ st.sidebar.header("Filters")
 # Position filter
 positions = st.sidebar.multiselect(
     'Select Position(s)',
-    options=processed_df['Position'].unique(),
-    default=processed_df['Position'].unique()
+    options=df['Position'].unique(),
+    default=df['Position'].unique()
 )
 
 # Cost range filter
-min_cost = processed_df['Cost'].min()
-max_cost = processed_df['Cost'].max()
+min_cost = df['Cost'].min()
+max_cost = df['Cost'].max()
 cost_range = st.sidebar.slider(
     'Select Player Cost Range',
     min_value=int(min_cost),
@@ -67,15 +67,15 @@ cost_range = st.sidebar.slider(
 # Team filter
 teams = st.sidebar.multiselect(
     'Select Team(s)',
-    options=processed_df['Team'].unique(),
-    default=processed_df['Team'].unique()
+    options=df['Team'].unique(),
+    default=df['Team'].unique()
 )
 
 # Apply filters
-filtered_df = processed_df[
-    (processed_df['Position'].isin(positions)) &
-    (processed_df['Cost'].between(*cost_range)) &
-    (processed_df['Team'].isin(teams))
+filtered_df = df[
+    (df['Position'].isin(positions)) &
+    (df['Cost'].between(*cost_range)) &
+    (df['Team'].isin(teams))
 ]
 
 # Generate the scatter plot with px
@@ -152,11 +152,6 @@ fig_bg.update_layout(
     ),
     showlegend=False,
     height=800,
-    #title=dict(
-        #text='Current Form vs Difficulty of Upcoming Games for Midfielders',
-        #x=0.5,  # Center the title
-        #xanchor='center'
-    #),
     margin=dict(r=200)  # Increase the right margin to accommodate the annotation
 )
 
