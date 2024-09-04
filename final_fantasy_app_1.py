@@ -8,9 +8,9 @@ import os
 # Load the data using st.cache_data to improve performance
 @st.cache_data
 def load_data():
-    base_path = "/Users/michaelwecker/Hyper_Island/Final_Project"
-    file_path = os.path.join(base_path, "data_processed_player.csv")
-    
+    base_path = os.path.dirname(__file__)  # Directory of the current script
+    file_path = os.path.join(base_path, "data_processed_player_app.csv")
+
     # Debug: Check if the file path is correct and if the file exists
     if not os.path.exists(file_path):
         st.error(f"File not found: {file_path}")
@@ -19,7 +19,7 @@ def load_data():
     return pd.read_csv(file_path)
 
 # Load the processed data
-processed_df = load_data()
+df = load_data()
 
 # If the data is empty, stop further execution
 if processed_df.empty:

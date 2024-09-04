@@ -5,6 +5,7 @@ import json
 from datetime import datetime
 import numpy as np
 import logging
+import os
 
 # Configure logging
 logging.basicConfig(
@@ -185,11 +186,13 @@ def main():
         player_ids = players_df["id"]
         difficulty_df = compile_difficulty_data(player_ids)
         processed_df = process_data(selected_df, difficulty_df, current_gameweek)
-        
-        processed_df.to_csv("data_processed_player.csv", index=False)
-        events_df.to_csv("data_events.csv", index=False)
-        players_df.to_csv("data_players.csv", index=False)
-        teams_df.to_csv("data_teams.csv", index=False)
+
+        base_path = os.path.dirname(__file__)  # Directory of the current script
+        processed_df.to_csv(os.path.join(base_path, "data_processed_player_app.csv"), index=False)
+        events_df.to_csv(os.path.join(base_path, "data_events.csv"), index=False)
+        players_df.to_csv(os.path.join(base_path, "data_players.csv"), index=False)
+        teams_df.to_csv(os.path.join(base_path, "data_teams.csv"), index=False)
+
         logging.info('ETL pipeline completed successfully')
     except Exception as e:
         logging.error(f'ETL pipeline failed: {e}')
