@@ -1,26 +1,26 @@
 id,name,release_time,average_entry_score,finished,data_checked,highest_scoring_entry,deadline_time_epoch,deadline_time_game_offset,highest_score,is_previous,is_current,is_next,cup_leagues_created,h2h_ko_matches_created,ranked_count,chip_plays,most_selected,most_transferred_in,top_element,top_element_info,transfers_made,most_captained,most_vice_captained,gameweek_date
 1,Gameweek 1,,57,True,True,3546234.0,1723829400,0,127.0,False,False,False,False,False,8597356,"[{'chip_name': 'bboost', 'num_played': 144974}, {'chip_name': '3xc', 'num_played': 221430}]",401.0,27.0,328.0,"{'id': 328, 'points': 14}",0,351.0,351.0,2024-08-16
 2,Gameweek 2,,69,True,True,9442126.0,1724493600,0,154.0,False,False,False,True,True,9543353,"[{'chip_name': 'bboost', 'num_played': 118782}, {'chip_name': 'freehit', 'num_played': 102788}, {'chip_name': 'wildcard', 'num_played': 217521}, {'chip_name': '3xc', 'num_played': 612384}]",401.0,594.0,177.0,"{'id': 177, 'points': 20}",13364453,351.0,401.0,2024-08-24
-3,Gameweek 3,,64,True,True,430195.0,1725098400,0,130.0,True,False,False,True,True,9912161,"[{'chip_name': 'bboost', 'num_played': 87334}, {'chip_name': 'freehit', 'num_played': 140192}, {'chip_name': 'wildcard', 'num_played': 656652}, {'chip_name': '3xc', 'num_played': 186907}]",351.0,177.0,328.0,"{'id': 328, 'points': 17}",23723836,351.0,328.0,2024-08-31
-4,Gameweek 4,,51,True,True,3560750.0,1726308000,0,120.0,False,True,False,True,True,10178753,"[{'chip_name': 'bboost', 'num_played': 83637}, {'chip_name': 'freehit', 'num_played': 125561}, {'chip_name': 'wildcard', 'num_played': 940783}, {'chip_name': '3xc', 'num_played': 199688}]",351.0,129.0,185.0,"{'id': 185, 'points': 15}",25930392,351.0,328.0,2024-09-14
-5,Gameweek 5,,0,False,False,,1726912800,0,,False,False,True,False,False,0,"[{'chip_name': 'bboost', 'num_played': 13333}, {'chip_name': 'freehit', 'num_played': 10366}, {'chip_name': 'wildcard', 'num_played': 43674}, {'chip_name': '3xc', 'num_played': 14743}]",,,,,1697626,,,2024-09-21
-6,Gameweek 6,,0,False,False,,1727517600,0,,False,False,False,False,False,0,[],,,,,0,,,2024-09-28
-7,Gameweek 7,,0,False,False,,1728122400,0,,False,False,False,False,False,0,[],,,,,0,,,2024-10-05
-8,Gameweek 8,,0,False,False,,1729332000,0,,False,False,False,False,False,0,[],,,,,0,,,2024-10-19
+3,Gameweek 3,,64,True,True,430195.0,1725098400,0,130.0,False,False,False,True,True,9912161,"[{'chip_name': 'bboost', 'num_played': 87334}, {'chip_name': 'freehit', 'num_played': 140192}, {'chip_name': 'wildcard', 'num_played': 656652}, {'chip_name': '3xc', 'num_played': 186907}]",351.0,177.0,328.0,"{'id': 328, 'points': 17}",23723836,351.0,328.0,2024-08-31
+4,Gameweek 4,,51,True,True,3560750.0,1726308000,0,120.0,False,False,False,True,True,10178753,"[{'chip_name': 'bboost', 'num_played': 83637}, {'chip_name': 'freehit', 'num_played': 125561}, {'chip_name': 'wildcard', 'num_played': 940783}, {'chip_name': '3xc', 'num_played': 199688}]",351.0,129.0,185.0,"{'id': 185, 'points': 15}",25930392,351.0,328.0,2024-09-14
+5,Gameweek 5,,58,True,True,1773336.0,1726912800,0,131.0,False,False,False,True,True,10279610,"[{'chip_name': 'bboost', 'num_played': 66447}, {'chip_name': 'freehit', 'num_played': 79498}, {'chip_name': 'wildcard', 'num_played': 311710}, {'chip_name': '3xc', 'num_played': 71288}]",351.0,58.0,180.0,"{'id': 180, 'points': 16}",13036058,351.0,351.0,2024-09-21
+6,Gameweek 6,,50,True,True,7479996.0,1727517600,0,142.0,True,False,False,True,True,10369689,"[{'chip_name': 'bboost', 'num_played': 62665}, {'chip_name': 'freehit', 'num_played': 84229}, {'chip_name': 'wildcard', 'num_played': 663489}, {'chip_name': '3xc', 'num_played': 83406}]",351.0,327.0,182.0,"{'id': 182, 'points': 25}",21036913,351.0,328.0,2024-09-28
+7,Gameweek 7,,46,True,True,759474.0,1728122400,0,130.0,False,True,False,True,True,10466714,"[{'chip_name': 'bboost', 'num_played': 54778}, {'chip_name': 'freehit', 'num_played': 81146}, {'chip_name': 'wildcard', 'num_played': 308835}, {'chip_name': '3xc', 'num_played': 140205}]",351.0,182.0,512.0,"{'id': 512, 'points': 18}",14594461,351.0,328.0,2024-10-05
+8,Gameweek 8,,0,False,False,,1729332000,0,,False,False,True,True,True,0,"[{'chip_name': 'bboost', 'num_played': 34922}, {'chip_name': 'freehit', 'num_played': 34627}, {'chip_name': 'wildcard', 'num_played': 103441}, {'chip_name': '3xc', 'num_played': 55584}]",,,,,5773720,,,2024-10-19
 9,Gameweek 9,,0,False,False,,1729877400,0,,False,False,False,False,False,0,[],,,,,0,,,2024-10-25
 10,Gameweek 10,,0,False,False,,1730545200,0,,False,False,False,False,False,0,[],,,,,0,,,2024-11-02
 11,Gameweek 11,,0,False,False,,1731159000,0,,False,False,False,False,False,0,[],,,,,0,,,2024-11-09
 12,Gameweek 12,,0,False,False,,1732359600,0,,False,False,False,False,False,0,[],,,,,0,,,2024-11-23
 13,Gameweek 13,,0,False,False,,1732905000,0,,False,False,False,False,False,0,[],,,,,0,,,2024-11-29
-14,Gameweek 14,,0,False,False,,1733249700,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-03
-15,Gameweek 15,,0,False,False,,1733578200,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-07
+14,Gameweek 14,,0,False,False,,1733248800,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-03
+15,Gameweek 15,,0,False,False,,1733569200,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-07
 16,Gameweek 16,,0,False,False,,1734183000,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-14
-17,Gameweek 17,,0,False,False,,1734787800,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-21
-18,Gameweek 18,,0,False,False,,1735219800,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-26
-19,Gameweek 19,,0,False,False,,1735479000,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-29
-20,Gameweek 20,,0,False,False,,1735997400,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-04
-21,Gameweek 21,,0,False,False,,1736878500,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-14
-22,Gameweek 22,,0,False,False,,1737207000,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-18
+17,Gameweek 17,,0,False,False,,1734778800,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-21
+18,Gameweek 18,,0,False,False,,1735210800,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-26
+19,Gameweek 19,,0,False,False,,1735477200,0,,False,False,False,False,False,0,[],,,,,0,,,2024-12-29
+20,Gameweek 20,,0,False,False,,1735988400,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-04
+21,Gameweek 21,,0,False,False,,1736877600,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-14
+22,Gameweek 22,,0,False,False,,1737198000,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-18
 23,Gameweek 23,,0,False,False,,1737811800,0,,False,False,False,False,False,0,[],,,,,0,,,2025-01-25
 24,Gameweek 24,,0,False,False,,1738416600,0,,False,False,False,False,False,0,[],,,,,0,,,2025-02-01
 25,Gameweek 25,,0,False,False,,1739626200,0,,False,False,False,False,False,0,[],,,,,0,,,2025-02-15
